@@ -1,0 +1,64 @@
+{
+  "name": "vscode-textmate",
+  "version": "1.0.9",
+  "description": "VSCode TextMate grammar helpers",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "main": "./release/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/vscode-textmate"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Microsoft/vscode-textmate/issues"
+  },
+  "scripts": {
+    "watch": "gulp watch",
+    "test": "gulp test",
+    "benchmark": "node benchmark/benchmark.js"
+  },
+  "dependencies": {
+    "alexandrudima-oniguruma": "^6.0.0",
+    "sax": "^1.1.1"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "event-stream": "^3.3.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-typescript": "^2.8.2"
+  },
+  "gitHead": "6be0ea8e601d641ca96f93e7c702e0a6c8dd6fec",
+  "homepage": "https://github.com/Microsoft/vscode-textmate",
+  "_id": "vscode-textmate@1.0.9",
+  "_shasum": "74cfcaa73f5bc4764fa5ca24ca5bebc50a7ff3b4",
+  "_from": "vscode-textmate@latest",
+  "_npmVersion": "2.14.4",
+  "_nodeVersion": "4.1.1",
+  "_npmUser": {
+    "name": "alexandrudima",
+    "email": "alexdima@microsoft.com"
+  },
+  "dist": {
+    "shasum": "74cfcaa73f5bc4764fa5ca24ca5bebc50a7ff3b4",
+    "tarball": "http://registry.npmjs.org/vscode-textmate/-/vscode-textmate-1.0.9.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "aeschli",
+      "email": "martinae@microsoft.com"
+    },
+    {
+      "name": "alexandrudima",
+      "email": "alexdima@microsoft.com"
+    },
+    {
+      "name": "bpasero",
+      "email": "benjpas@microsoft.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/vscode-textmate/-/vscode-textmate-1.0.9.tgz"
+}
